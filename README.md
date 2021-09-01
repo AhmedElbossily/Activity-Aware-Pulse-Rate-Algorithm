@@ -23,15 +23,15 @@ All estimators will have some amount of error. How much error is tolerable depen
 
 ## To run this code
 - You need to import
- - glob
- - numpy
- - scipy
- - collections
- - matplotlib
+   - glob
+   - numpy
+   - scipy
+   - collections
+   - matplotlib
 - The notebook consists of two main code cells.
 - The first cell contains all the algorithm functions.
 - The second one contains the Evaluate method which kicks off the algorithm.
--
+
 ## The dataset Troika[1] was used to build the algorithm.
 - The dataset contains (ECG signal, PPG signal, (x,y,z) accelerattion signal)
 - he ground truth of the hear beat was obtained from the ECG signal
